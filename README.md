@@ -9,7 +9,7 @@ screen character by character.
   only ~60 KB of hot data is copied to RAM.
 * No TensorFlow Lite on the device. The firmware has one small inference routine (`main/cmlp_model.cpp`).
 
-![Project Preview](assets/preview.png)
+![Project Preview](assets/preview.jpg)
 
 ## How the model works (short)
 
