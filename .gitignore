@@ -1,8 +1,13 @@
 tools/202311101.en/
-training/data/
+training/data/qa500
 training/runs/qa500
 build/
 sdkconfig.old
 __pycache__/
 *.pyc
 .venv
+managed_components/
+sdkconfig
+dependencies.lock
+# the model is big: publish it as a release asset instead (see README)
+model/model.bin

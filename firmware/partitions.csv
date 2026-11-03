@@ -1,0 +1,8 @@
+# Name,   Type, SubType, Offset,   Size
+nvs,      data, nvs,     0x9000,   0x6000
+phy_init, data, phy,     0xf000,   0x1000
+factory,  app,  factory, 0x10000,  0x300000
+# 12 MiB for the model (model.bin is ~12.1 MB for window 256, vocab 98, hidden 480).
+# Offsets of partitions that are memory-mapped must be 64 KB aligned: 0x310000 is.
+# Ends at 0xF10000, inside the 16 MB flash (0x1000000).
+model,    data, 0x40,    0x310000, 0xC00000
