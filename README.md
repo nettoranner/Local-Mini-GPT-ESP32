@@ -9,6 +9,8 @@ screen character by character.
   only ~60 KB of hot data is copied to RAM.
 * No TensorFlow Lite on the device. The firmware has one small inference routine (`main/cmlp_model.cpp`).
 
+![Project Preview](assets/preview.png)
+
 ## How the model works (short)
 
 The network is `one-hot(256 x 98) -> Dense(480) + ReLU -> Dense(98)`. A one-hot input times a matrix is
